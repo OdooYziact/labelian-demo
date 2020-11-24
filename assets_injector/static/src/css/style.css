@@ -8,6 +8,13 @@ body header nav.o_main_navbar {
     background-color: #cc3636;
 }
 
+body header nav.o_main_navbar a:focus,
+body header nav.o_main_navbar a:hover
+{
+    background-color: #cc3636;
+}
+
+
 .o_home_menu .o_apps .o_app .o_caption {
 	text-shadow: 0 0px 9px rgb(0, 0, 0);
 }
