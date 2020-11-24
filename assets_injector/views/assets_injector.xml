@@ -1,0 +1,7 @@
+<odoo>
+    <template id="assets_backend_injector" name="assets_injector" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+             <link rel="stylesheet" href="/assets_injector/static/src/css/style.css"/>
+        </xpath>
+    </template>
+</odoo>
