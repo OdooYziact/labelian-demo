@@ -3,7 +3,7 @@
     <record id="park_machine_inherit_form_fsm" model="ir.ui.view">
         <field name="name">park machine</field>
         <field name="model">project.task</field>
-        <field name="inherit_id" ref="industry_fsm.project_task_view_form"/>
+        <field name="inherit_id" ref="project.view_task_form2"/>
         <field name="arch" type="xml">
 
             <xpath expr="//field[@name='name']" position="after">
