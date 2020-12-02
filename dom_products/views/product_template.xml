@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="dom_products_products_tmpl_form_view" model="ir.ui.view">
+        <field name="name">Product Template Only Form View</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml" >
+
+            <field name="categ_id" position="after">
+                <field name="eco_dds" />
+                <field name="family" />
+                <field name="dang" />
+                <field name="nb_par_colis" />
+            </field>
+            <field name="uom_po_id" position="after">
+                <field name="num_onu" invisible="True"/>
+                <field name="onu_id" options="{'no_create':True}"/>
+                <field name="weight" />
+                <field name="poids_net" />
+            </field>
+
+        </field>
+    </record>
+
+</odoo>
